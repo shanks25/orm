@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "production"]
+	url = ssh://root@139.59.28.87/var/repo/site.git
+	fetch = +refs/heads/*:refs/remotes/production/*
